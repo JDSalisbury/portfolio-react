@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { Home, Projects } from './screens';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Content } from './components';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projects} />
+          <Content>
+            <Route exact path="/projects" component={Projects} />
+          </Content>
         </Switch>
       </Router>
     </div>

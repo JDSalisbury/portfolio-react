@@ -1,5 +1,4 @@
 import React from 'react';
-// import { BackgroundImage, ProfilePicture } from '../../components';
 
 function Projects() {
   return (
