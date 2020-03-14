@@ -6,7 +6,8 @@ class ProfilePicture extends Component {
       <div className="profilePicture">
         <img
           className="pic"
-          src="https://media2.fdncms.com/orlando/imager/who-framed-roger-rabbit-is-back/u/original/2326480/1457413.jpg"
+          src="https://vignette.wikia.nocookie.net/rogerrabbit/images/4/4d/Roger_Rabbit_11.png/revision/latest/top-crop/width/360/height/450?cb=20131219163533"
+          // src={require("../../static/noodz.jpg")}
           alt="Portfolio Pic"
         />
       </div>
