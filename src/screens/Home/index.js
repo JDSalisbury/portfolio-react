@@ -1,6 +1,5 @@
-import React from "react";
-import BackgroundImage from "../../components/background-image";
-import ProfilePicture from "../../components/profile-picture";
+import React from 'react';
+import { BackgroundImage, ProfilePicture } from '../../components';
 
 function Home() {
   return (
