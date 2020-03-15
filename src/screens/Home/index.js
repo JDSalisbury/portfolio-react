@@ -14,6 +14,7 @@ function Home() {
         height="100vh"
       >
         <ProfilePicture />
+        <div className="msg">Lets make some dope shit</div>
       </BackgroundImage>
     </Link>
   );
