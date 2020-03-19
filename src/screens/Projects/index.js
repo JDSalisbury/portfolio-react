@@ -1,7 +1,7 @@
 import React from 'react';
 import Lorem from './lorem';
 import { Parallax } from 'react-parallax';
-
+import { ColorBar, Intro } from '../../components';
 function Projects() {
   return (
     <>
@@ -32,8 +32,10 @@ function Projects() {
             biltong burgdoggen.
           </p>
         </div>
-        {/* <ColorBar></ColorBar> */}
       </Parallax>
+      <ColorBar color={'#55379e'}>
+        <Intro />
+      </ColorBar>
       <Lorem />
     </>
   );
