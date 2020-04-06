@@ -1,7 +1,6 @@
-import React from 'react';
-import Lorem from './lorem';
-import { Parallax } from 'react-parallax';
-import { ColorBar, Intro } from '../../components';
+import React from "react";
+import { Parallax } from "react-parallax";
+import { ColorBar, Intro, IconArea, ImageArea } from "../../components";
 function Projects() {
   return (
     <>
@@ -11,8 +10,8 @@ function Projects() {
         bgImageAlt="fucking generic picture of space from the hubble"
         strength={600}
       >
-        <div style={{ height: '100vh' }}>
-          <div style={{ height: '150px' }}></div>
+        <div style={{ height: "100vh" }}>
+          <div style={{ height: "150px" }}></div>
           <h1 className="page">Building The Future of Tomorrow Today!</h1>
           <br />
           <br />
@@ -33,10 +32,18 @@ function Projects() {
           </p>
         </div>
       </Parallax>
-      <ColorBar color={'#55379e'}>
+      <ColorBar color={"#55379e"} height={"440px"}>
         <Intro />
       </ColorBar>
-      <Lorem />
+      <ColorBar color={"#fff"} height={"500px"}>
+        <IconArea />
+      </ColorBar>
+      <ColorBar color={"#1E2132"} height={"375px"}>
+        <ImageArea />
+      </ColorBar>
+      <ColorBar color={"#fff"} height={"500px"}>
+        <IconArea />
+      </ColorBar>
     </>
   );
 }

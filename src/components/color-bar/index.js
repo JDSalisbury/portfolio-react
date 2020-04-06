@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-function ColorBar({ children, color }) {
+function ColorBar({ children, color, height }) {
   return (
     <section
       style={{
-        height: '400px',
+        height: `${height}`,
         backgroundColor: `${color}`,
       }}
     >

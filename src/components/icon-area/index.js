@@ -1,14 +1,14 @@
 import React from "react";
-import "./index.css";
+import "./icon-area.css";
 
-function Intro() {
+function IconArea() {
   return (
-    <div className="intro-intro-content">
-      <h2 className="intro-section-heading">
+    <div className="icon-intro-content">
+      <h2 className="icon-section-heading">
         Want to make an original website yourself?
       </h2>
-      <hr className="intro-light"></hr>
-      <p className="intro-content">
+      <hr className="icon-light"></hr>
+      <p className="icon-content">
         Pork loin turkey brisket chuck hamburger burgdoggen, tenderloin ball tip
         chicken prosciutto bacon meatball doner swine. Hamburger shoulder
         capicola, beef prosciutto ball tip alcatra short loin strip steak chuck
@@ -22,4 +22,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default IconArea;
